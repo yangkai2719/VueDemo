@@ -2,7 +2,7 @@
   <div class="todo-footer">
     <label>
 
-      <slot name="check"></slot>
+      <input type="checkbox" v-model="isCheckAll" />
     </label>
     <span>
  <slot name="size"></slot>
@@ -14,7 +14,11 @@
 <script>
 
   export default {
+completeSize(){
 
+
+
+}
   }
 </script>
 
