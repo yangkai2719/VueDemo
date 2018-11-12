@@ -7,6 +7,7 @@ const state = {
   count: 2
 }
 
+
 const mutations = {
   INCREMENT(state){
     state.count++
@@ -34,7 +35,7 @@ const actions = {
   },
 }
 const getters = {
-  everOrOdd(state){
+  evenOrOdd(state){
     return state.count % 2 === 1 ? '奇数' : '偶数'
   }
   
